@@ -1,0 +1,72 @@
+
+@media (max-width: 767px) {
+    .navbar-brand{
+        align-items:right;
+    }
+    .mobile-menu{
+        display: none;
+    }
+    #mynav{
+        background-color: #741ce8;
+    }
+}
+.navbar-toggler{
+    border: 2px solid #000;
+}
+
+#about{
+    background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+    height: 5000px;
+}
+@media (min-width: 767px) {
+    .mobile-menu{
+        display: none;
+    }
+}
+
+.mobile-menu{
+    display: none;
+    border: solid 1px #741ce8;
+    width: 100%;
+    background-color: #741ce8;
+    line-height: 35px;
+    text-align: center
+        
+}
+.mobilemanuList{
+    list-style-type: none;
+}
+.mlink{
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    line-height: 46px;
+}
+.mlink:hover{
+    color: rgb(17, 15, 15) !important;
+    text-decoration: none;
+}
+.mManuItem{
+    /* border: crimson solid 1px; */
+    width: 100%;
+}
+.nav-link{
+    font-weight: bolder;
+    color: red;
+}
+.nav-link:hover{
+    color: rgb(17, 15, 15) !important;
+}
+#services{
+    background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+    height: 5000px;
+}
+
+.scrolling {
+    position: fixed;
+    background-color: #741ce8;
+    /* border-bottom: #0000001c 2px solid; */
+}
+
+#logo{
+    color: rgb(17, 15, 15) !important;
+}
