@@ -14,9 +14,12 @@
     border: 2px solid #000;
 }
 
-#about{
-    background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
-    height: 5000px;
+#home{
+    background: linear-gradient(to bottom,#7a19f1,#332179);
+    height: 600px;
+    padding-top: 190px !important;
+}
+    
 }
 @media (min-width: 767px) {
     .mobile-menu{
@@ -51,14 +54,19 @@
 }
 .nav-link{
     font-weight: bolder;
-    color: red;
+    color: #ffffff;
 }
 .nav-link:hover{
     color: rgb(17, 15, 15) !important;
 }
 #services{
     background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
-    height: 5000px;
+    height: 500px;
+}
+#about{
+    background-image: url(./../img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    background-attachment: fixed;
+    /* height: 500px; */
 }
 
 .scrolling {
@@ -69,4 +77,97 @@
 
 #logo{
     color: rgb(17, 15, 15) !important;
+    font-family: 'Amatic SC', cursive;
 }
+#welcomeNote{
+    color: rgb(255, 255, 255);
+    font-family: 'Amatic SC', cursive;
+}
+.header-button {
+    border: rgb(255, 255, 255) solid 2px;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 100px;
+}
+#headerbtn{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header-button:hover {
+    border: rgb(0, 0, 0) solid 2px;
+    
+}
+
+.header-button{
+    animation: x 8s linear 2s infinite alternate;
+    position: relative;
+    
+  }
+  
+  @keyframes x {
+    0%   {left:-100px; top:0px; border-radius: 0%;}
+    25%  {left:100px; top:0px; border-radius: 25%;}
+    100% {left:-100px; top:0px; border-radius: 0%;}
+  }
+
+#aboutContainer{
+    background-color: #523ea2;
+    border-radius: 10px;
+}
+#imgMe{
+    border: solid 2px #82a7d4;
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-header-text{
+    /* font-family: 'Amatic SC', cursive;
+    font-family: 'Amatic SC', cursive; */
+/* font-family: 'Lobster', cursive;
+font-family: 'Permanent Marker', cursive; */
+font-family: 'Piedra', cursive;
+color: blanchedalmond;
+}
+
+.timeline {
+    position: relative;
+  }
+  
+  .timeline .timelin-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    
+  }
+  
+  .timeline li {
+    padding: 0px 0px 9px 9px;
+    list-style: none;
+    border-left: 2px solid #f1f1f1;
+  }
+  
+  .timeline li .content-text {
+    /* background: #f2f2f2;
+    padding: 20px; */
+    background: #f5ddc4;
+    padding: 15px;
+    border: solid 1px #ce4714;
+    border-radius: 5px;
+  }
+  
+  .timeline li .line-title {
+    font-size: 16px;
+    line-height: 6px;
+  }
+  
+  .timeline li span {
+    font-size: 12px;
+    /* padding: 9px 0; */
+    display: block;
+  }
+  
+  .timeline li .line-text {
+    color: #888;
+    line-height: 18px;
+  }

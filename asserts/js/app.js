@@ -7,7 +7,7 @@ $(document).ready(function(){
         }
         else{
             myNav.classList.remove("scrolling");
-            $('.nav-link').css('color', 'red');
+            $('.nav-link').css('color', '#ffffff');
         }
 
     });
