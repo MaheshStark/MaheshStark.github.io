@@ -271,5 +271,5 @@ color: blanchedalmond;
 #portfolio{
     background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
     background-attachment: fixed;
-    height: 500px;
+    /* height: 500px; */
 }
