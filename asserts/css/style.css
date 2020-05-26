@@ -1,4 +1,3 @@
-
 @media (max-width: 767px) {
     .navbar-brand{
         align-items:right;
@@ -8,6 +7,10 @@
     }
     #mynav{
         background-color: #741ce8;
+    }
+    .techTitle{
+        width: 100%;
+        text-align: center;
     }
 }
 .navbar-toggler{
@@ -244,4 +247,29 @@ color: blanchedalmond;
 }
 #whatsapp:hover{
     color: rgb(6, 110, 6);
+}
+
+#technologies{
+    background-image: url(./../img/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg);
+    background-attachment: fixed;
+    /* height: 500px; */
+}
+
+.technologies-section-title{
+    font-weight: bold;
+}
+#technologies-container{
+    background-color: #523ea2;
+    border-radius: 10px;
+}
+.techTitle{
+    color: cornsilk;
+}
+.techItem{
+    margin: 18px;
+}
+#portfolio{
+    background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
+    background-attachment: fixed;
+    height: 500px;
 }
