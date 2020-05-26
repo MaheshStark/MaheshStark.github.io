@@ -93,8 +93,13 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
+#headerbtn:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 .header-button:hover {
     border: rgb(0, 0, 0) solid 2px;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -177,4 +182,66 @@ color: blanchedalmond;
     /* border: solid 1px #ce4714; */
     border-radius: 5px;
     text-align: center;
+    line-height: 20px;
   }
+
+#resumeD{
+    margin-top: 10px;
+    border: solid 1px blanchedalmond;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    color: blanchedalmond !important;
+}
+
+#resumeD:hover{
+    color: rgb(17, 15, 15) !important;
+    text-decoration: none;
+    border: solid 1px  rgb(17, 15, 15);
+}
+.conectSm{
+    width: 50px;
+    position: fixed;
+    height: 240px;
+    right: 0px;
+    top: 150px;
+    background-color: cornsilk;
+    /* border: solid 1px; */
+    z-index: 10;
+}
+.smb{
+    width: 100%;
+    padding-left: 3px;
+}
+#linkedin{
+    color: rgb(0, 0, 255);
+}
+#github{
+    color: rgb(0, 0, 0);
+}
+#gmail{
+    color: rgb(72, 196, 72);
+}
+#fb{
+    color: rgb(53, 120, 245);
+}
+#whatsapp{
+    color: rgb(16, 241, 16);
+}
+
+#linkedin:hover{
+    color: rgb(15, 15, 102);
+}
+#github:hover{
+    color: rgb(78, 76, 76);
+}
+#gmail:hover{
+    color: rgb(15, 116, 15);
+}
+#fb:hover{
+    color: rgb(45, 84, 158);
+}
+#whatsapp:hover{
+    color: rgb(6, 110, 6);
+}
