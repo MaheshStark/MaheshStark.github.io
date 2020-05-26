@@ -52,7 +52,6 @@
     text-decoration: none;
 }
 .mManuItem{
-    /* border: crimson solid 1px; */
     width: 100%;
 }
 .nav-link{
@@ -64,18 +63,15 @@
 }
 #services{
     background-image: url(./../img/bg-1.jpg);
-    /* height: 400px; */
 }
 #about{
     background-image: url(./../img/lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
     background-attachment: fixed;
-    /* height: 500px; */
 }
 
 .scrolling {
     position: fixed;
     background-color: #741ce8;
-    /* border-bottom: #0000001c 2px solid; */
 }
 
 #logo{
@@ -156,8 +152,6 @@ color: blanchedalmond;
   }
   
   .timeline li .content-text {
-    /* background: #f2f2f2;
-    padding: 20px; */
     background: #f5ddc4;
     padding: 15px;
     border: solid 1px #ce4714;
@@ -171,7 +165,6 @@ color: blanchedalmond;
   
   .timeline li span {
     font-size: 12px;
-    /* padding: 9px 0; */
     display: block;
   }
   
@@ -182,7 +175,6 @@ color: blanchedalmond;
 
   .services-item{
     background: #f5ddc4;
-    /* border: solid 1px #ce4714; */
     border-radius: 5px;
     text-align: center;
     line-height: 20px;
@@ -210,7 +202,6 @@ color: blanchedalmond;
     right: 0px;
     top: 150px;
     background-color: cornsilk;
-    /* border: solid 1px; */
     z-index: 10;
 }
 .smb{
@@ -252,7 +243,6 @@ color: blanchedalmond;
 #technologies{
     background-image: url(./../img/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg);
     background-attachment: fixed;
-    /* height: 500px; */
 }
 
 .technologies-section-title{
@@ -270,6 +260,37 @@ color: blanchedalmond;
 }
 #portfolio{
     background-image: url(./../img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg);
-    background-attachment: fixed;
-    /* height: 500px; */
+    background-attachment: fixed; 
+}
+
+#Contact{
+    background-image: url(./../img/shahadat-rahman-gnyA8vd3Otc-unsplash.jpg);
+    background-attachment: fixed; 
+}
+footer{
+    background-color: black;
+    height: 300px;
+}
+
+#arrowup{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    bottom: 60px;
+    right: 50px;
+}
+.not-show{
+    display: none;
+}
+.show{
+    display: inline;
+}
+.contact-form{
+    height: 300px;
+    background-color: #fff1d6;
+    border-radius: 25px;
+    margin: 20px;
 }
