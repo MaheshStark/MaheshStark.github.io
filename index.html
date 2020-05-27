@@ -276,13 +276,41 @@
     </section>
     <section id="contact" class="pt-5 pb-5">
       <div id="contact-container" class="col-md-12 col-lg-12 col-sm-12 row justify-content-center">
-        <div id="email-sender" class="col-md-5 col-lg-5 col-sm-12 row contact-form">
-
+        <div id="email-sender" class="col-md-7 col-lg-7 col-sm-12 row contact-form">
+            <form id="contactForm">
+              <div class="row col-12">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <div class="form-group">
+                    <h2 class="text-center mt-2 mb-2">Contact Form</h2>
+                  </div>                                 
+                </div>
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                  </div>                                 
+                </div>
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <div class="form-group">
+                    <input type="text" placeholder="Email" id="email" class="form-control" name="email">
+                  </div> 
+                </div>
+                 <div class="col-md-12 col-lg-12 col-sm-12">
+                  <div class="form-group">
+                    <input type="text" placeholder="Subject" id="msg_subject" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                  <div class="form-group"> 
+                    <textarea class="form-control" id="message" placeholder="Your Message" rows="4"></textarea>
+                  </div>
+                  <div class="submit-button col-md-12 col-lg-12 col-sm-12 justify-content-center">
+                    <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                  </div>
+                </div>
+              </div>            
+            </form>
         </div>
-        <div id="contact-deatails" class="col-md-5 col-lg-5 col-sm-12 row contact-form">
-
         </div>
-      </div>
     </section>
     <footer>
       <div id="footerSample" class="page-footer font-small bg-dark  pt-4 pb-5">
