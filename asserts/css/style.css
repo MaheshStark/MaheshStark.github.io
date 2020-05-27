@@ -269,7 +269,6 @@ color: blanchedalmond;
 }
 footer{
     background-color: black;
-    height: 300px;
 }
 
 #arrowup{
@@ -293,4 +292,12 @@ footer{
     background-color: #fff1d6;
     border-radius: 25px;
     margin: 20px;
+}
+.footer-link{
+    color: wheat;
+}
+
+.footer-link:hover{
+    color: rgb(199, 156, 75);
+    text-decoration: none;
 }
