@@ -36,7 +36,7 @@ function displayProj(image,name){
     let imgDiv = document.createElement('div');
     let note = document.createElement('div');
     let title = document.createElement('h1');
-    title.className='text-center';
+    title.className='text-center text-white';
     let deatails = document.createElement('div');
     let discription = document.createElement('h5');
     deatails.className='row col-6 float-right';
@@ -51,7 +51,7 @@ function displayProj(image,name){
     imgTag.setAttribute('hight', '100%');
     imgDiv.appendChild(imgTag);
     display.appendChild(imgDiv);
-    
+    discription.className='text-white';
     if (name=='Drop Shipper') {
         discription.innerHTML="I worked as Full-Stack developer in this project...<br> Front-end done by Angular and back-end done by java spring boot.";
     }else if(name=='Simplex.lk'){
@@ -65,4 +65,15 @@ function displayProj(image,name){
 function closeProject() {
     display.classList.remove("show");
     display.classList.add("not-show")
+}
+function sendEmail() {
+    let name = $('#name').val();
+    let email = $('#email').val();
+    let subject = $('#sub').val();
+    let msg = $('#msg').val();
+
+    console.log(name, email, subject, msg);
+    
+    
+
 }
