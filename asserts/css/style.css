@@ -2,6 +2,15 @@
     .navbar-brand{
         align-items:right;
     }
+    #project-display{
+        position: fixed;
+        z-index: 20;
+        /* height: 200px; */
+        background-color: #958af3;
+        box-shadow: #958af3;
+        top: 200px;
+        border-radius: 25px;        
+    }
     .mobile-menu{
         display: none;
     }
@@ -12,6 +21,7 @@
         width: 100%;
         text-align: center;
     }
+    
 }
 .navbar-toggler{
     border: 2px solid #000;
@@ -285,7 +295,7 @@ color: blanchedalmond;
 }
 .contact-form{
     /* height: 300px; */
-    background-color: #fff1d6;
+    background-color: #958af3;
     border-radius: 25px;
     margin: 20px;
 }
@@ -296,4 +306,16 @@ color: blanchedalmond;
 .footer-link:hover{
     color: rgb(199, 156, 75);
     text-decoration: none;
+}
+@media (min-width: 767px) {
+    #project-display{
+        position: fixed;
+        z-index: 20;
+        /* height: 400px; */
+        background-color: #958af3;
+        box-shadow: #958af3;
+        top: 200px;
+        border-radius: 25px;
+        left: 10%;
+    }    
 }
