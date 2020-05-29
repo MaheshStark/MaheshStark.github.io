@@ -39,7 +39,7 @@ $(document).ready(function(){
             window.location.hash = hash;
           });
         } // End if
-      });
+      }); 
 })
 
 function displayProj(image,name){
