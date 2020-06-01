@@ -1,3 +1,12 @@
+$(window).load(function(){
+    $(".web-content").fadeIn();
+    $(".loading").hide();
+    // setTimeout(function(){
+    // $(".web-content").fadeIn();
+    // $(".loading").hide();
+
+    // },10000);
+});
 $(document).ready(function(){
     $(window).scroll(function(){
         var myNav = document.getElementById('mynav');
