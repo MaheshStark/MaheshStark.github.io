@@ -6,8 +6,13 @@ $(window).load(function(){
     // $(".loading").hide();
 
     // },10000);
+    let home = document.getElementById('home-nav');
+    home.classList.add('active');
 });
 $(document).ready(function(){
+    // $(function() {
+    //     $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+    //   });
     $(window).scroll(function(){
         var myNav = document.getElementById('mynav');
         var upSorller = document.getElementById('arrowup');
@@ -21,9 +26,29 @@ $(document).ready(function(){
             myNav.classList.remove("scrolling");
             $('.nav-link').css('color', '#ffffff');
             upSorller.classList.add("not-show"); 
-            upSorller.classList.remove("show");  
+            upSorller.classList.remove("show"); 
+            
         }
-
+        $('section').each(function () {
+            if($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight()) > $(document).scrollTop()) {
+                // console.log($(this).attr('id')+"-nav");
+                let elements = document.getElementsByClassName('link-to-nav')
+                for (let i = 0; i < elements.length; i++) {
+                    const element = elements[i];
+                    // console.log(element);
+                    if (element.id==$(this).attr('id')+"-nav") {
+                        element.classList.add('active');
+                        
+                    }
+                    else{
+                        element.classList.remove('active');
+                    }
+                    
+                    
+                }
+            }
+        });
+        
     });
     $('#btnToggler').click(function(){
         $(".mobile-menu").fadeToggle("slow");   
@@ -107,3 +132,9 @@ function sendEmail() {
     
 
 }
+// var nav = document.getElementById('nav'),
+//         anchor = nav.getElementsByTagName('a'),
+//         current = window.location.pathname.split('/')[1];
+//         for (var i = 0; i < anchor.length; i++) {
+//         if(anchor[i].href == current) {
+//             anchor[i].className = "active";

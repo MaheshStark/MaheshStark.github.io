@@ -2,6 +2,7 @@
     .navbar-brand{
         align-items:right;
     }
+    
     #project-display{
         position: fixed;
         z-index: 20;
@@ -9,7 +10,8 @@
         background-color: #958af3;
         box-shadow: #958af3;
         top: 200px;
-        border-radius: 25px;        
+        border-radius: 25px; 
+        opacity: 90%;       
     }
     .mobile-menu{
         display: none;
@@ -21,6 +23,7 @@
         width: 100%;
         text-align: center;
     }
+    
     
 }
 .navbar-toggler{
@@ -315,11 +318,21 @@ color: blanchedalmond;
         top: 200px;
         border-radius: 25px;
         left: 20%;
-    }    
+        opacity: 90%;
+    }   
+    .active{
+        color: #000 !important;
+        border: #5563bf solid 2px;
+        /* background-color: #b7beec; */
+        border-radius: 5px;
+    }
+    } 
 }
 .projImgDiv:hover{
     opacity: 50%;
     border-radius: 10px;
+    border-radius: 50%;
+    border: solid 1px white;
 }
 .loading span{
     width: 25px;
@@ -362,4 +375,17 @@ color: blanchedalmond;
 }
 body{
     background-color: #741ce8;
+}
+
+
+.services-item:hover {
+    background: #f5922b;
+}
+
+.smb:hover {
+    color: red !important;
+    
+}
+.active{
+    color: #000 !important;
 }
