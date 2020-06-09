@@ -315,10 +315,11 @@ color: blanchedalmond;
         z-index: 20;
         background-color: #958af3;
         box-shadow: #958af3;
-        top: 200px;
+        top: 110px;
         border-radius: 25px;
         left: 20%;
         opacity: 90%;
+        height: 400px;  
     }   
     .active{
         color: #000 !important;
