@@ -2,10 +2,25 @@
     .navbar-brand{
         align-items:right;
     }
-    
+    .conectSm{
+        width: 54%;
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        left: 25%;
+        background-color: cornsilk;
+        z-index: 10;
+        padding-left: 3px;
+    }
+    .smb{
+        width: 20%;
+        padding-top: 3px;
+        float: left;
+    }
     #project-display{
         position: fixed;
         z-index: 20;
+
         /* height: 200px; */
         background-color: #958af3;
         box-shadow: #958af3;
@@ -36,11 +51,6 @@
     padding-top: 190px !important;
 }
     
-}
-@media (min-width: 767px) {
-    .mobile-menu{
-        display: none;
-    }
 }
 
 .mobile-menu{
@@ -208,7 +218,7 @@ color: blanchedalmond;
     text-decoration: none;
     border: solid 1px  rgb(17, 15, 15);
 }
-.conectSm{
+/* .conectSm{
     width: 50px;
     position: fixed;
     height: 240px;
@@ -220,7 +230,7 @@ color: blanchedalmond;
 .smb{
     width: 100%;
     padding-left: 3px;
-}
+} */
 #linkedin{
     color: rgb(0, 0, 255);
 }
@@ -310,6 +320,22 @@ color: blanchedalmond;
     text-decoration: none;
 }
 @media (min-width: 767px) {
+    .conectSm{
+        width: 50px;
+        position: fixed;
+        height: 240px;
+        right: 0px;
+        top: 150px;
+        background-color: cornsilk;
+        z-index: 10;
+    }
+    .smb{
+        width: 100%;
+        padding-left: 3px;
+    }
+    .mobile-menu{
+        display: none;
+    }
     #project-display{
         position: fixed;
         z-index: 20;
