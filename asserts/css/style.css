@@ -3,19 +3,18 @@
         align-items:right;
     }
     .conectSm{
-        width: 54%;
+        display: inline-block;
         position: fixed;
-        height: 50px;
+        height: 65px;
         bottom: 0px;
-        left: 25%;
         background-color: cornsilk;
         z-index: 10;
-        padding-left: 3px;
+        padding: 4px;
     }
     .smb{
         width: 20%;
-        padding-top: 3px;
         float: left;
+        padding: 5px;
     }
     #project-display{
         position: fixed;
